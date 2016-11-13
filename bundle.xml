@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>aws_sdk</name>
+        <label>Amazon Web Services SDK</label>
+        <description>Software development kit for developing cloud rich applications and services.</description>
+        <type>sdk</type>
+        <version>3.19.24</version>
+        <namespace>\Aws</namespace>
+        <copyright>Amazon</copyright>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2</version>
+            </bundle>
+            <bundle>
+                <name>vendor</name>
+            </bundle>
+        </depends_on>
+    </bundle>
+</adapt_framework>
